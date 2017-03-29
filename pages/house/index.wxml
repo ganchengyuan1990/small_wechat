@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <loading hidden="{{loadingHide}}">正在加载</loading>
+  <view style="flex-direction:row;" class="list demo">
+    <view class="flex-item bc_green title">房屋地址</view>
+    <view class="flex-item bc_red">租金</view>
+    <view class="flex-item bc_blue">面积</view>
+  </view>
+  <view wx:for="{{house}}" style="flex-direction:row;" class="list">
+    <view class="flex-item bc_green title">{{item.title}}</view>
+    <view class="flex-item bc_red">{{item.price}}</view>
+    <view class="flex-item bc_blue">{{item.mianji}}</view>
+  </view>
+</view>

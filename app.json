@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/house/index",
+    "pages/nba/index",
+    "pages/logs/logs"
+  ],
+   "tabBar": {
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "red",
+    "backgroundColor": "rgba(240, 240, 240, 0.6)",
+    "list": [{
+      "pagePath": "pages/house/index",
+      "iconPath": "image/ing.png",
+      "selectedIconPath": "image/ing-active.png",
+      "text": "房屋"
+    },{
+      "pagePath": "pages/nba/index",
+      "iconPath": "image/coming.png",
+      "selectedIconPath": "image/coming-active.png",
+      "text": "涂鸦画板"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "时间追逐者",
+    "navigationBarTextStyle":"black"
+  },
+  "debug": true
+}
+

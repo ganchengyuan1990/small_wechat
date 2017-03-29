@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="welcome">
+
+        <navigator url="../house/index" open-type="switchTab" hover-class="other-navigator-hover">欢迎宝宝，请点击！</navigator>
+
+    
+    <!--<text class="user-motto">欢迎宝宝，请点击！</text>-->
+  </view>
+</view>
